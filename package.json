@@ -1,9 +1,16 @@
 {
   "name": "word-trimwidth",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Truncate a list of words with a specified width",
   "main": "dist/index.js",
   "files": ["dist/*", "dist/**/*"],
+  "keywords": [
+    "word",
+    "trim",
+    "trimwidth",
+    "truncate",
+    "no-dependencies"
+  ],
   "scripts": {
     "lint": "eslint ./lib --ext ts,tsx",
     "test": "jest",
