@@ -1,0 +1,44 @@
+{
+  "name": "word-trimwidth",
+  "version": "1.0.0",
+  "description": "Truncate a list of words with a specified width",
+  "main": "dist/index.js",
+  "scripts": {
+    "lint": "eslint ./lib --ext ts,tsx",
+    "test": "jest",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuki-omoto/word-trimwidth.git"
+  },
+  "author": "Yuki Omoto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuki-omoto/word-trimwidth/issues"
+  },
+  "homepage": "https://github.com/yuki-omoto/word-trimwidth#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
+    "@typescript-eslint/parser": "^5.15.0",
+    "eslint": "^8.11.0",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.6.2"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "ts"
+    ],
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "globals": {
+      "ts-jest": {
+        "tsconfig": "tsconfig.json"
+      }
+    }
+  }
+}
