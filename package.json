@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Truncate a list of words with a specified width",
   "main": "dist/index.js",
+  "files": ["dist/*", "dist/**/*"],
   "scripts": {
     "lint": "eslint ./lib --ext ts,tsx",
     "test": "jest",
