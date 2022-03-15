@@ -2,6 +2,12 @@
 
 This module truncates a list of words within a specified width, or the number of charactors.
 
+## Install
+
+```
+npm install word-trimwidth
+```
+
 ## Usage
 
 ```
